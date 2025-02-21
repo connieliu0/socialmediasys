@@ -1,7 +1,7 @@
 <script>
   import { onMount } from 'svelte';
   import { writable } from 'svelte/store';
-  import Animation from './Animation.svelte';
+  import Cloud from './Cloud.svelte';
 
   const columns = {
     persistence: ['10 seconds', '1 day', '1 week', 'forever'],
@@ -68,16 +68,16 @@
       if (nodes.persistence === '10 seconds' && nodes.media === 'short text' && 
           nodes.network === 'strangers of your interest' && nodes.limit === 'yes' && 
           nodes.spread === 'yes') {
-        outputText1 = 'connecting to the network';
-        outputText2 = 'the birds are singing';
+        outputText1 = 'the birds are singing';
+        outputText2 = "who you want to be and are converge";
       } else if (nodes.persistence === 'forever' && nodes.media === 'video' && 
                  nodes.network === 'intimate' && nodes.limit === 'no' && 
                  nodes.spread === 'no') {
-        outputText1 = 'processing your choices';
-        outputText2 = 'who you truly are crystallizes';
+        outputText1 = 'the leaves are blowing';
+        outputText2 = 'you are emitting becoming yourself';
       } else {
         outputText1 = 'analyzing combination';
-        outputText2 = 'different combination output';
+        outputText2 = '(havent thought of this combination yet)';
       }
     }
   }
@@ -147,7 +147,7 @@
 
   {#if outputText1 && outputText2}
     <div class="output">
-      <Animation text1={outputText1} text2={outputText2} key={animationKey} />
+      <Cloud text1={outputText1} text2={outputText2} key={animationKey} />
     </div>
   {/if}
 </div>
@@ -188,25 +188,22 @@
     cursor: pointer;
     transition: all 0.2s;
     position: relative;
-    filter:blur(1px);
+    filter: blur(1px);
+  }
 
+  .node:hover {
+    filter: blur(0px);
   }
 
   .node.selected {
-    filter:blur(0px);
+    filter: blur(0px);
   }
 
   .output {
     position: fixed;
-    bottom: 2rem;
+    bottom: 6rem;
     left: 50%;
     transform: translateX(-50%);
-    padding: 1rem 2rem;
-    background: white;
-    opacity: 0.8;
-    color: blue;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     z-index: 2;
   }
 

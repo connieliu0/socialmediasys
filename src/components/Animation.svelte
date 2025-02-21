@@ -1,74 +1,61 @@
 <script>
-  export let text1 = "";
-  export let text2 = "";
-  export let key = 0; // Add this to force re-render
+  export let text = "";
+  export let key = 0;
   
-  let displayText1 = "";
-  let displayText2 = "";
-  let isFirstDone = false;
-  
-  const typeDelay = 50; // milliseconds between each character
+  let displayText = "";
+  const typeDelay = 50;
 
   async function typeText() {
-    displayText1 = "";
-    displayText2 = "";
-    isFirstDone = false;
+    displayText = "";
     
-    // Type first text
-    for (let i = 0; i < text1.length; i++) {
-      displayText1 = text1.slice(0, i + 1);
-      await new Promise(resolve => setTimeout(resolve, typeDelay));
-    }
-    
-    await new Promise(resolve => setTimeout(resolve, 300));
-    isFirstDone = true;
-
-    // Type second text
-    for (let i = 0; i < text2.length; i++) {
-      displayText2 = text2.slice(0, i + 1);
+    for (let i = 0; i < text.length; i++) {
+      displayText = text.slice(0, i + 1);
       await new Promise(resolve => setTimeout(resolve, typeDelay));
     }
   }
 
   $: {
-    if (text1 && text2) {
+    if (text) {
       typeText();
     }
   }
 </script>
 
-<div class="container">
-  <div class="text-wrapper">
-    <span class="text1" class:shrink={isFirstDone}>{displayText1}</span>
-    <span class="text2">{displayText2}</span>
-  </div>
+<div class="text-container">
+  <div class="blur-background"></div>
+  <span class="text">{displayText}</span>
 </div>
 
 <style>
-  .container {
+  .text-container {
+    width: 300px;
+    min-height: 1.5em;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 2rem;
+    box-sizing: border-box;
   }
 
-  .text-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
+  .blur-background {
+    position: absolute;
+    inset: 0;
+    border-radius: 118.519px;
+    background: rgba(255, 255, 255, 0.95);
+    filter: blur(30px);
+    border-radius: 5rem;
+    box-shadow: 
+      0 0 10px 2px rgba(255, 255, 255, 0.05),
+      inset 0 0 10px 2px rgba(255, 255, 255, 0.05);
+    z-index: 1;
   }
 
-  .text1 {
-    transition: transform 0.3s ease, font-size 0.3s ease, opacity 0.3s ease;
-  }
-
-  .text1.shrink {
-    transform: translateY(-10px);
-    font-size: 0.8em;
-    opacity: 0.7;
-  }
-
-  .text2 {
-    font-weight: bold;
+  .text {
+    white-space: nowrap;
+    color: #155FF3 !important;
+    position: relative;
+    z-index: 2;
+    font-size: 1.5em;
   }
 </style>
