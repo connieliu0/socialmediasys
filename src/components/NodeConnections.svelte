@@ -8,8 +8,8 @@
     persistence: ['10 seconds', '1 day', '1 week', 'forever'],
     media: ['short text', 'long text', 'image', 'video'],
     network: ['strangers of your interest', 'everyone you\'ve met', 'intimate'],
-    limit: ['yes', 'no'],
-    spread: ['yes', 'no']
+    limit: ['yes','no'],
+    spread: ['widely', 'none']
   };
 
   const selectedNodes = writable({});
@@ -24,6 +24,7 @@
   let outputText1 = '';
   let outputText2 = '';
   let animationKey = 0;
+  let selectedCombination = '';
 
   onMount(() => {
     // Initialize node position tracking after components are mounted
@@ -67,9 +68,13 @@
     const { persistence, media, network, limit, spread } = nodes;
 
     if (persistence && media && network && limit && spread) {
+        selectedCombination = `${persistence}-${media}-${network}-${limit}-${spread}`;
+        console.log('Trying to access:', {persistence, media, network, limit, spread});
         const output = outputRules.combinations?.[persistence]?.[media]?.[network]?.[limit]?.[spread] || ['Invalid combination', ''];
-        outputText1 = output[0]; // Natural attribute message
-        outputText2 = output[1]; // Self appearance type
+        console.log('Found output:', output);
+        outputText1 = output[0];
+        outputText2 = output[1];
+        animationKey = Date.now();
     }
   }
 
@@ -136,11 +141,11 @@
     </div>
   {/each}
 
-  {#if outputText1 && outputText2}
+  {#key selectedCombination}
     <div class="output">
       <Cloud text1={outputText1} text2={outputText2} key={animationKey} />
     </div>
-  {/if}
+  {/key}
 </div>
 
 <style>
