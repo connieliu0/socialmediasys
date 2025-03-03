@@ -28,7 +28,7 @@
 
 <style>
   .text-container {
-    width: 300px;
+    width: fit-content;
     min-height: 1.5em;
     display: flex;
     align-items: center;

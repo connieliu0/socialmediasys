@@ -6,21 +6,21 @@
           "yes": {
             "widely": [
               "the leaves are blowing",
-              "your crafted self blooms for distant eyes"
+              "the idealized version of who you aspire to be"
             ],
             "none": [
               "the birds are singing",
-              "a fragment of who you wish to be"
+              "fragments of a self crafted for admiration"
             ]
           },
           "no": {
             "widely": [
               "shadows dance on the pavement",
-              "your whispered truth fades into silence"
+              "glimpses of who you wish others would see"
             ],
             "none": [
-              "clouds drift across blue skies",
-              "your passing thoughts captured in permanent record"
+              "raindrops collect on window glass",
+              "untethered dreams of your ideal self"
             ]
           }
         },
@@ -28,21 +28,21 @@
           "yes": {
             "widely": [
               "sunlight sprinkles through the clouds",
-              "wearing masks woven from others' expectations"
+              "a cautious self adapted to past judgment"
             ],
             "none": [
               "a gentle rain taps on windows",
-              "your cautious self seeking familiar approval"
+              "carefully filtered thoughts for familiar observers"
             ]
           },
           "no": {
             "widely": [
               "waves crash against distant shores",
-              "momentary courage among familiar strangers"
+              "unintended revelations to your collected past"
             ],
             "none": [
-              "waves crash against distant shores",
-              "momentary courage among familiar strangers"
+              "city lights flicker in the distance",
+              "unguarded moments among witnesses of your history"
             ]
           }
         },
@@ -50,21 +50,21 @@
           "yes": {
             "widely": [
               "the leaves rustle softly",
-              "your open heart among trusted keepers"
+              "your authentic self shared with trusted few"
             ],
             "none": [
               "dewdrops glisten at dawn",
-              "your unguarded self breathes then vanishes"
+              "your unguarded self breathes among those who understand"
             ]
           },
           "no": {
             "widely": [
               "fireflies dance in twilight",
-              "truth shimmering between trusted souls"
+              "your true self shimmering in safe company"
             ],
             "none": [
-              "morning light filters through trees",
-              "truth illuminated briefly in sheltered spaces"
+              "candles flicker in still air",
+              "your genuine presence warming trusted spaces"
             ]
           }
         }
@@ -72,61 +72,67 @@
       "long text": {
         "strangers of your interest": {
           "yes": {
-            "yes": [
+            "widely": [
               "the cicadas call in rhythm",
-              "weaving stories for unknown hearts to judge"
-            ]
-          },
-          "yes": {
-            "no": [
+              "carefully crafting who you wish to become"
+            ],
+            "none": [
               "pebbles skip across still water",
-              "circles of your idealized self rippling outward"
+              "ripples of your aspirational narrative"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "fog rolls through empty streets",
-              "your veiled thoughts drift without destination"
+              "your ideal self drifting toward unknown reception"
+            ],
+            "none": [
+              "wind whistles through urban canyons",
+              "echoes of the self you dream of being"
             ]
           }
         },
         "everyone you've met": {
           "yes": {
-            "yes": [
+            "widely": [
               "a single bird flies through the air",
-              "carefully crafted wings carrying calculated vulnerability"
-            ]
-          },
-          "yes": {
-            "no": [
+              "a measured self calibrated to your history"
+            ],
+            "none": [
               "clouds shift shapes against blue sky",
-              "your social self morphing for familiar gazes"
+              "selective revelations adapted to familiar eyes"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "raindrops trace patterns on glass",
-              "transparent yet distorted reflections of your being"
+              "unplanned exposure to those who recognize your patterns"
+            ],
+            "none": [
+              "fallen leaves collect in corners",
+              "unintended disclosures to your collected past"
             ]
           }
         },
         "intimate": {
           "yes": {
-            "yes": [
+            "widely": [
               "the small wind paves its way",
-              "your innermost self breathing among kindred spirits"
-            ]
-          },
-          "yes": {
-            "no": [
+              "your genuine self flowing where truly welcomed"
+            ],
+            "none": [
               "morning light filters through trees",
-              "truth illuminated briefly in sheltered spaces"
+              "your honest thoughts illuminated in trusted spaces"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "stars appear one by one",
-              "your genuine light shining without fear"
+              "your authentic self emerging without hesitation"
+            ],
+            "none": [
+              "embers glow in dying fires",
+              "your unedited wisdom warming trusted circles"
             ]
           }
         }
@@ -134,61 +140,67 @@
       "image": {
         "strangers of your interest": {
           "yes": {
-            "yes": [
+            "widely": [
               "petals drift on gentle currents",
-              "your curated beauty for anonymous admiration"
-            ]
-          },
-          "yes": {
-            "no": [
+              "visual aspirations of who you wish to become"
+            ],
+            "none": [
               "moonlight illuminates forest paths",
-              "selective glimpses of who you wish to become"
+              "glimpses of your idealized aesthetic"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "frost patterns form on morning glass",
-              "your unplanned beauty crystallized then gone"
+              "unplanned beauty of who you wish to be"
+            ],
+            "none": [
+              "spider webs catch morning dew",
+              "accidental revelations of your aspirational self"
             ]
           }
         },
         "everyone you've met": {
           "yes": {
-            "yes": [
+            "widely": [
               "autumn leaves spiral downward",
-              "carefully choreographed falling for familiar eyes"
-            ]
-          },
-          "yes": {
-            "no": [
+              "a cultivated visual identity for familiar judgment"
+            ],
+            "none": [
               "sunbeams pierce through storm clouds",
-              "your light breaking through social barriers"
+              "selective self-presentation to those who know you"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "shadows lengthen with sunset",
-              "unintended revelations in shifting light"
+              "unintended exposure among your collected witnesses"
+            ],
+            "none": [
+              "puddles reflect passing scenes",
+              "unplanned reflections visible to your history"
             ]
           }
         },
         "intimate": {
           "yes": {
-            "yes": [
+            "widely": [
               "dew gathers on spider webs",
-              "your vulnerable beauty among those who cherish it"
-            ]
-          },
-          "yes": {
-            "no": [
+              "your true visual self shared with those who cherish it"
+            ],
+            "none": [
               "mist rises from morning fields",
-              "your essence briefly visible then ascending"
+              "your authentic beauty visible to trusted eyes"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "bees hover among flowers",
               "your natural self thriving in nurturing company"
+            ],
+            "none": [
+              "wildflowers lean toward sunlight",
+              "your genuine self growing in safe spaces"
             ]
           }
         }
@@ -196,61 +208,67 @@
       "video": {
         "strangers of your interest": {
           "yes": {
-            "yes": [
+            "widely": [
               "rivers flow between smooth stones",
-              "your polished performance seeking unknown shores"
-            ]
-          },
-          "yes": {
-            "no": [
+              "a performance of who you aspire to be"
+            ],
+            "none": [
               "clouds drift across mountain peaks",
-              "dreams of your ideal self crossing vast distances"
+              "choreographed movements of your ideal self"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "waves rhythmically caress the shore",
-              "your unedited rhythm touching unfamiliar sands"
+              "unscripted movements of who you wish to become"
+            ],
+            "none": [
+              "rain falls on empty streets",
+              "spontaneous glimpses of your aspirational story"
             ]
           }
         },
         "everyone you've met": {
           "yes": {
-            "yes": [
+            "widely": [
               "leaves dance in circular winds",
-              "spinning carefully within the eyes of your past"
-            ]
-          },
-          "yes": {
-            "no": [
+              "careful motions for those who know your history"
+            ],
+            "none": [
               "sunlight dapples through canopies",
-              "filtered versions of yourself playing for recognition"
+              "filtered narratives for familiar audiences"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "rain creates patterns on still ponds",
-              "your unplanned motion rippling through familiar waters"
+              "unplanned revelations among collected observers"
+            ],
+            "none": [
+              "birds flock in changing formations",
+              "spontaneous expressions visible to your past"
             ]
           }
         },
         "intimate": {
           "yes": {
-            "yes": [
+            "widely": [
               "morning mist dissolves in sunlight",
-              "your hidden self emerging in trusted warmth"
-            ]
-          },
-          "yes": {
-            "no": [
+              "your true self emerging in trusted warmth"
+            ],
+            "none": [
               "stars reflect in calm waters",
-              "depths and heights of you mirrored in loving eyes"
+              "your genuine journey mirrored in loving eyes"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "firelight flickers on gathered faces",
               "you are emitting becoming your true self"
+            ],
+            "none": [
+              "shadows dance on living room walls",
+              "your unfiltered essence moving in sacred company"
             ]
           }
         }
@@ -260,61 +278,67 @@
       "short text": {
         "strangers of your interest": {
           "yes": {
-            "yes": [
+            "widely": [
               "birds call across the valley",
-              "your voice carrying crafted messages outward"
-            ]
-          },
-          "yes": {
-            "no": [
+              "your aspirational identity projected outward"
+            ],
+            "none": [
               "wind whispers through tall grass",
-              "words of your aspiring self seeking reception"
+              "whispers of the self you wish to become"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "water ripples under gentle touch",
-              "your unprompted thoughts rippling into stranger's hands"
+              "unintended glimpses of who you want to be"
+            ],
+            "none": [
+              "morning dew collects on leaves",
+              "your ideal self gathering without audience"
             ]
           }
         },
         "everyone you've met": {
           "yes": {
-            "yes": [
+            "widely": [
               "clouds shift slowly overhead",
-              "carefully shaped impressions for your collected audience"
-            ]
-          },
-          "yes": {
-            "no": [
+              "a measured self presented to your collected past"
+            ],
+            "none": [
               "rain taps gentle rhythms",
-              "coded messages from your social persona"
+              "coded signals for those familiar with your patterns"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "dusk paints the horizon purple",
-              "colors of your mind blending without filter"
+              "unplanned exposure to your social history"
+            ],
+            "none": [
+              "street lights illuminate empty corners",
+              "unguarded moments visible to familiar eyes"
             ]
           }
         },
         "intimate": {
           "yes": {
-            "yes": [
+            "widely": [
               "leaves whisper secrets to soil",
-              "your tender truths nestled in trusted earth"
-            ]
-          },
-          "yes": {
-            "no": [
-              "morning light bathes silent rooms",
-              "your inner warmth illuminating sacred spaces"
+              "your authentic self nestled in trusted company"
+            ],
+            "none": [
+              "morning light touches the grass",
+              "your genuine warmth illuminating sacred spaces"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "stars wink between shifting clouds",
-              "your genuine light peeking through comfortable darkness"
+              "your true self peeking through comfortable darkness"
+            ],
+            "none": [
+              "creek water bubbles over stones",
+              "your everyday self flowing in trusted company"
             ]
           }
         }
@@ -322,61 +346,67 @@
       "long text": {
         "strangers of your interest": {
           "yes": {
-            "yes": [
+            "widely": [
               "rivers carve pathways through stone",
-              "your deliberate narrative seeking to impress unknown minds"
-            ]
-          },
-          "yes": {
-            "no": [
+              "your idealized narrative seeking admiration"
+            ],
+            "none": [
               "sunlight filters through forest canopy",
-              "selective thoughts of your aspirational self"
+              "selective glimpses of who you wish to become"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "waves retreat leaving patterns in sand",
-              "unintended imprints of your passing thoughts"
+              "unintended traces of your aspirational self"
+            ],
+            "none": [
+              "snowflakes collect on empty benches",
+              "your ideal reflections settling without viewers"
             ]
           }
         },
         "everyone you've met": {
           "yes": {
-            "yes": [
+            "widely": [
               "wind carries whispers across distances",
-              "your carefully crafted story carried to familiar ears"
-            ]
-          },
-          "yes": {
-            "no": [
+              "your calculated persona for familiar judgment"
+            ],
+            "none": [
               "dawn breaks over silent landscapes",
-              "your social self awakening for collected witnesses"
+              "your social identity revealed to collected witnesses"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "twilight merges day into night",
-              "boundaries of your private and public selves blurring"
+              "blurred boundaries of self exposed to your history"
+            ],
+            "none": [
+              "neighborhood dogs bark to each other",
+              "unfiltered thoughts audible to familiar ears"
             ]
           }
         },
         "intimate": {
           "yes": {
-            "yes": [
+            "widely": [
               "moonlight illuminates quiet corners",
-              "your hidden depths revealed in trusted darkness"
-            ]
-          },
-          "yes": {
-            "no": [
+              "your true depths revealed in trusted darkness"
+            ],
+            "none": [
               "rain creates symphonies on rooftops",
-              "music of your true self playing for beloved listeners"
+              "your authentic voice playing for beloved listeners"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "flowers open to morning light",
               "your unguarded heart blooming in nurturing company"
+            ],
+            "none": [
+              "afternoon sun warms forest clearings",
+              "your genuine essence heating shared sanctuary"
             ]
           }
         }
@@ -384,61 +414,67 @@
       "image": {
         "strangers of your interest": {
           "yes": {
-            "yes": [
+            "widely": [
               "fog obscures distant mountains",
-              "your visual identity veiled yet enticing"
-            ]
-          },
-          "yes": {
-            "no": [
+              "your idealized identity veiled yet enticing"
+            ],
+            "none": [
               "sunbeams break through storm clouds",
-              "glimpses of your idealized self piercing darkness"
+              "glimpses of your aspirational self piercing darkness"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "dew collects on morning spiderwebs",
-              "your unplanned beauty caught in natural moments"
+              "unintended beauty of your ideal self"
+            ],
+            "none": [
+              "frost patterns intricate windows",
+              "your aspirational artistry crystallizing without audience"
             ]
           }
         },
         "everyone you've met": {
           "yes": {
-            "yes": [
+            "widely": [
               "autumn paints landscapes in gold",
-              "your carefully composed self for familiar appreciation"
-            ]
-          },
-          "yes": {
-            "no": [
+              "your curated identity for those who know your seasons"
+            ],
+            "none": [
               "shadows stretch across empty fields",
-              "elongated versions of your curated presence"
+              "elongated versions of your restricted presence"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "rain creates windows to other worlds",
-              "unfiltered glimpses into your daily existence"
+              "unplanned glimpses offered to familiar viewers"
+            ],
+            "none": [
+              "city reflections shimmer in puddles",
+              "fragments of your ambiguous self for collected eyes"
             ]
           }
         },
         "intimate": {
           "yes": {
-            "yes": [
+            "widely": [
               "light dances on moving water",
               "your true beauty playing in trusted sight"
-            ]
-          },
-          "yes": {
-            "no": [
+            ],
+            "none": [
               "mist rises from warming earth",
-              "your essence releasing into caring atmosphere"
+              "your authentic essence releasing into caring atmosphere"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "snowflakes gather on still branches",
-              "unique patterns of your self resting in safe company"
+              "unique patterns of your genuine self resting in safe company"
+            ],
+            "none": [
+              "morning fog hovers over meadows",
+              "your authentic comfort rising in cherished spaces"
             ]
           }
         }
@@ -446,61 +482,67 @@
       "video": {
         "strangers of your interest": {
           "yes": {
-            "yes": [
+            "widely": [
               "water spirals down familiar paths",
-              "your rehearsed movements for unknown viewers"
-            ]
-          },
-          "yes": {
-            "no": [
+              "your ideal self performing for unknown viewers"
+            ],
+            "none": [
               "wind carries seeds to distant soils",
-              "aspirations of your ideal self seeking new ground"
+              "aspirations of who you want to be seeking new ground"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "tide retreats revealing hidden worlds",
-              "your unintended revelations left bare on shore"
+              "unintended revelations of your dream self"
+            ],
+            "none": [
+              "city traffic flows in patterns",
+              "your aspirational journeys visible without intention"
             ]
           }
         },
         "everyone you've met": {
           "yes": {
-            "yes": [
+            "widely": [
               "clouds build castles in blue skies",
-              "your social identity constructed for collective viewing"
-            ]
-          },
-          "yes": {
-            "no": [
+              "your restricted identity constructed for familiar viewing"
+            ],
+            "none": [
               "sun traces arcs across open sky",
-              "predictable paths of your curated journey"
+              "predictable paths of your curated social self"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "rain creates music on varied surfaces",
-              "your unfiltered expressions finding diverse reception"
+              "unplanned expressions finding reception in your history"
+            ],
+            "none": [
+              "birds flock in evening return",
+              "your unedited movements among familiar observers"
             ]
           }
         },
         "intimate": {
           "yes": {
-            "yes": [
+            "widely": [
               "firelight illuminates gathered faces",
               "your authentic warmth dancing among beloved eyes"
-            ]
-          },
-          "yes": {
-            "no": [
+            ],
+            "none": [
               "moonlight reveals hidden pathways",
               "secret journeys of your heart shared with trusted guides"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "dawn transforms darkness into color",
               "your true self awakening in nurturing presence"
+            ],
+            "none": [
+              "ponds steam in cool morning air",
+              "your genuine essence gathering in sacred spaces"
             ]
           }
         }
@@ -510,61 +552,67 @@
       "short text": {
         "strangers of your interest": {
           "yes": {
-            "yes": [
+            "widely": [
               "grass grows between sidewalk cracks",
-              "your persistent image seeking unfamiliar recognition"
-            ]
-          },
-          "yes": {
-            "no": [
+              "your aspirational identity seeking validation"
+            ],
+            "none": [
               "rivers flow beneath city streets",
-              "hidden currents of your aspirational persona"
+              "hidden currents of the self you wish to become"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "clouds gather and disperse",
-              "your unguarded thoughts forming then dissolving"
+              "your ideal self forming then dissolving"
+            ],
+            "none": [
+              "rain puddles evaporate slowly",
+              "your dream reflections lingering without audience"
             ]
           }
         },
         "everyone you've met": {
           "yes": {
-            "yes": [
+            "widely": [
               "trees sway in passing breeze",
-              "your flexible identity dancing for familiar viewers"
-            ]
-          },
-          "yes": {
-            "no": [
+              "your measured identity adapting for familiar viewers"
+            ],
+            "none": [
               "tides retreat and return",
-              "rhythmic presence of your social self"
+              "rhythmic presence of your social performance"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "moon waxes and wanes",
-              "natural cycles of your revealing and concealing"
+              "cycles of revealing and concealing among your history"
+            ],
+            "none": [
+              "neighborhood gardens change with seasons",
+              "your shifting self visible to collected witnesses"
             ]
           }
         },
         "intimate": {
           "yes": {
-            "yes": [
+            "widely": [
               "seeds germinate in darkness",
               "your genuine growth nurtured in trusted shadows"
-            ]
-          },
-          "yes": {
-            "no": [
+            ],
+            "none": [
               "birds return to familiar nests",
               "your honest self finding home in loving circles"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "stars hold steady while clouds pass",
               "your constant truth shining through temporary covers"
+            ],
+            "none": [
+              "wildflowers lean toward sunlight",
+              "your authentic nature seeking nourishment in safe spaces"
             ]
           }
         }
@@ -572,61 +620,67 @@
       "long text": {
         "strangers of your interest": {
           "yes": {
-            "yes": [
+            "widely": [
               "morning fog lifts from city streets",
-              "your curated depth revealed for distant judgment"
-            ]
-          },
-          "yes": {
-            "no": [
+              "your idealized depth revealed for distant judgment"
+            ],
+            "none": [
               "rivers curve around obstacles",
-              "your adaptable narrative seeking selective approval"
+              "your aspirational narrative seeking selective approval"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "trees drop leaves one by one",
-              "your thoughts releasing without calculated intent"
+              "your dream self releasing without calculated intent"
+            ],
+            "none": [
+              "spiderwebs collect morning dew",
+              "your ideal creations gathering quiet attention"
             ]
           }
         },
         "everyone you've met": {
           "yes": {
-            "yes": [
+            "widely": [
               "weather changes through the day",
-              "your shifting persona calibrated for known audiences"
-            ]
-          },
-          "yes": {
-            "no": [
-              "light changes angle through windows",
-              "perspectives of your social self carefully rotated"
+              "your shifting persona calibrated for familiar audiences"
+            ],
+            "none": [
+              "light changes angle through branches",
+              "perspectives of your restricted self carefully rotated"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "plants reach toward sunlight",
-              "your natural growth stretching toward familiar warmth"
+              "unplanned exposure stretching toward familiar recognition"
+            ],
+            "none": [
+              "old leaves gather on forest floors",
+              "your unedited thoughts accumulating among past connections"
             ]
           }
         },
         "intimate": {
           "yes": {
-            "yes": [
+            "widely": [
               "roots extend deeper in garden soil",
               "your authentic being anchoring in trusted ground"
-            ]
-          },
-          "yes": {
-            "no": [
+            ],
+            "none": [
               "water shapes its path with persistence",
               "your genuine nature flowing where truly welcomed"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "birds build nests with found materials",
               "your true self creating home from life's offerings"
+            ],
+            "none": [
+              "evening birds call in familiar rhythm",
+              "your unguarded self moving through sacred patterns"
             ]
           }
         }
@@ -634,61 +688,67 @@
       "image": {
         "strangers of your interest": {
           "yes": {
-            "yes": [
+            "widely": [
               "city lights reflect in puddles",
-              "your polished reflection seeking unknown admirers"
-            ]
-          },
-          "yes": {
-            "no": [
+              "your idealized reflection seeking unknown admirers"
+            ],
+            "none": [
               "sun traces shadows across walls",
-              "outlines of your aspiring self projected outward"
+              "outlines of your aspirational self projected outward"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "flowers open and close with daylight",
-              "your natural beauty breathing without performance"
+              "your dream beauty breathing without performance"
+            ],
+            "none": [
+              "branches cast patterns on sidewalks",
+              "your unintended ideals for passing strangers"
             ]
           }
         },
         "everyone you've met": {
           "yes": {
-            "yes": [
+            "widely": [
               "leaves change colors on branches",
               "your calculated transformation for familiar audience"
-            ]
-          },
-          "yes": {
-            "no": [
+            ],
+            "none": [
               "water reshapes its boundaries",
-              "fluid borders of your social identity"
+              "fluid borders of your restricted identity"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "birds gather on telephone wires",
               "your unplanned presence among collected connections"
+            ],
+            "none": [
+              "still ponds reflect evening sun",
+              "your ambiguous self mirrored through known spaces"
             ]
           }
         },
         "intimate": {
           "yes": {
-            "yes": [
+            "widely": [
               "garden grows with daily tending",
               "your authentic beauty flourishing in nurturing care"
-            ]
-          },
-          "yes": {
-            "no": [
+            ],
+            "none": [
               "cats return to familiar sunbeams",
               "your true self finding warmth in trusted places"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "light reveals dust dancing in air",
               "your unfiltered presence sparkling in loving sight"
+            ],
+            "none": [
+              "ponds steam in cool morning air",
+              "your everyday essence rising in sacred space"
             ]
           }
         }
@@ -696,61 +756,67 @@
       "video": {
         "strangers of your interest": {
           "yes": {
-            "yes": [
+            "widely": [
               "traffic flows through city streets",
-              "your directed movement seeking external validation"
-            ]
-          },
-          "yes": {
-            "no": [
+              "your ideal movement seeking external validation"
+            ],
+            "none": [
               "birds migrate in changing seasons",
-              "your aspiring self traveling toward imagined horizons"
+              "your aspirational self traveling toward imagined horizons"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "tide pools fill and empty",
-              "your unguarded moments collecting then releasing"
+              "your dream self collecting then releasing"
+            ],
+            "none": [
+              "smoke rises from distant chimneys",
+              "your ideal presence ascending without announcement"
             ]
           }
         },
         "everyone you've met": {
           "yes": {
-            "yes": [
+            "widely": [
               "rain falls on varied surfaces",
-              "your crafted presence performing for familiar reception"
-            ]
-          },
-          "yes": {
-            "no": [
-              "sun moves across living rooms",
+              "your restricted presence performing for familiar reception"
+            ],
+            "none": [
+              "sun moves across forest floors",
               "your social self illuminating chosen corners"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "wind moves through neighborhood trees",
-              "your natural energy flowing through known connections"
+              "your unplanned energy flowing through known connections"
+            ],
+            "none": [
+              "fireflies appear at dusk",
+              "your unintended illumination in social twilight"
             ]
           }
         },
         "intimate": {
           "yes": {
-            "yes": [
+            "widely": [
               "houseplants turn toward windows",
               "your genuine self orienting toward trusted light"
-            ]
-          },
-          "yes": {
-            "no": [
+            ],
+            "none": [
               "water finds paths through garden soil",
               "your true nature nourishing sacred ground"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "candle flames dance in still rooms",
               "your inner light moving freely in safe sanctuary"
+            ],
+            "none": [
+              "cats play with moving shadows",
+              "your playful essence chasing joy in loving company"
             ]
           }
         }
@@ -760,61 +826,67 @@
       "short text": {
         "strangers of your interest": {
           "yes": {
-            "yes": [
+            "widely": [
               "sidewalks crack and heal",
-              "your permanent persona frozen for unknown judgment"
-            ]
-          },
-          "yes": {
-            "no": [
+              "your ideal persona frozen for unknown judgment"
+            ],
+            "none": [
               "rainfall collects in city basins",
-              "fragments of your ideal self preserved for strangers"
+              "fragments of who you wish to be preserved for strangers"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "clouds drift across blue skies",
-              "your passing thoughts captured in permanent record"
+              "your dream self captured in permanent record"
+            ],
+            "none": [
+              "leaves collect in garden corners",
+              "your aspirational musings gathered without readers"
             ]
           }
         },
         "everyone you've met": {
           "yes": {
-            "yes": [
+            "widely": [
               "tree rings record passing years",
-              "layers of your calculated self visible to all who knew you"
-            ]
-          },
-          "yes": {
-            "no": [
+              "layers of your restricted self visible to all who knew you"
+            ],
+            "none": [
               "city streets remember footsteps",
-              "echoes of your social identity lingering indefinitely"
+              "echoes of your social performance lingering indefinitely"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "beach sand holds countless impressions",
-              "your unguarded thoughts preserved for familiar discovery"
+              "your unplanned self preserved for familiar discovery"
+            ],
+            "none": [
+              "library books remember each reader",
+              "your ambiguous reflections awaiting known visitors"
             ]
           }
         },
         "intimate": {
           "yes": {
-            "yes": [
-              "kitchen tables witness daily life",
+            "widely": [
+              "old trees witness passing seasons",
               "your genuine moments immortalized in trusted company"
-            ]
-          },
-          "yes": {
-            "no": [
+            ],
+            "none": [
               "garden soil remembers each season",
               "cycles of your true self preserved in loving memory"
             ]
           },
           "no": {
-            "no": [
-              "home walls absorb living sounds",
+            "widely": [
+              "forest floors absorb falling rain",
               "your authentic voice resonating in sacred spaces"
+            ],
+            "none": [
+              "tree stumps collect morning dew",
+              "circles of your everyday self gathering in cherished routine"
             ]
           }
         }
@@ -822,61 +894,67 @@
       "long text": {
         "strangers of your interest": {
           "yes": {
-            "yes": [
+            "widely": [
               "highways stretch to distant horizons",
-              "your curated narrative extending for unknown travelers"
-            ]
-          },
-          "yes": {
-            "no": [
+              "your ideal narrative extending for unknown travelers"
+            ],
+            "none": [
               "libraries hold countless stories",
-              "volumes of your ideal self awaiting curious readers"
+              "volumes of who you wish to be awaiting curious readers"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "ocean currents travel global paths",
-              "your unfiltered thoughts circling without destination"
+              "your dream thoughts circling without destination"
+            ],
+            "none": [
+              "rainwater fills forgotten containers",
+              "your aspirational reflections collecting without witnesses"
             ]
           }
         },
         "everyone you've met": {
           "yes": {
-            "yes": [
-              "neighborhood houses age together",
-              "your calculated history displayed for familiar viewing"
-            ]
-          },
-          "yes": {
-            "no": [
-              "photo albums collect dusty memories",
+            "widely": [
+              "trees in forests age together",
+              "your restricted history displayed for familiar viewing"
+            ],
+            "none": [
+              "fallen logs collect forest memories",
               "your social narrative preserved in selective frames"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "park benches witness passing lives",
-              "your unguarded reflections offered to mixed company"
+              "your unedited reflections offered to mixed company"
+            ],
+            "none": [
+              "street corners gather local stories",
+              "your ambiguous voice joining neighborhood echoes"
             ]
           }
         },
         "intimate": {
           "yes": {
-            "yes": [
-              "family recipes pass through generations",
+            "widely": [
+              "ancient trees shelter new saplings",
               "your authentic essence nourishing trusted circles"
-            ]
-          },
-          "yes": {
-            "no": [
-              "love letters yellow with age",
-              "your true heart preserved in cherished words"
+            ],
+            "none": [
+              "autumn leaves gather on forest paths",
+              "your true heart preserved in cherished spaces"
             ]
           },
           "no": {
-            "no": [
-              "natural attribute message 6",
+            "widely": [
+              "garden paths show years of footsteps",
               "your unmasked wisdom flowing through loving tributaries"
+            ],
+            "none": [
+              "moss grows over smooth river stones",
+              "your genuine comfort molded in closest sanctuary"
             ]
           }
         }
@@ -884,61 +962,67 @@
       "image": {
         "strangers of your interest": {
           "yes": {
-            "yes": [
-              "billboards fade in changing weather",
-              "your curated image fixed for unknown passersby"
-            ]
-          },
-          "yes": {
-            "no": [
-              "museum paintings gather silent viewers",
-              "your ideal self framed for selective appreciation"
+            "widely": [
+              "the weather changes rapidly",
+              "your ideal image fixed for unknown passersby"
+            ],
+            "none": [
+              "gardens of flowers fill the field",
+              "who you wish to be framed for selective appreciation"
             ]
           },
           "no": {
-            "no": [
-              "graffiti speaks from city walls",
-              "your unplanned expression marking public spaces"
+            "widely": [
+              "leaves are amongst the pavement",
+              "your aspirational expression marking public spaces"
+            ],
+            "none": [
+              "snow dusts the ground",
+              "your dream moments waiting without viewers"
             ]
           }
         },
         "everyone you've met": {
           "yes": {
-            "yes": [
-              "yearbook photos preserve youth",
-              "your calculated appearance immortalized for familiar eyes"
-            ]
-          },
-          "yes": {
-            "no": [
-              "vacation snapshots capture moments",
-              "selected frames of your social self for collective memory"
+            "widely": [
+              "the scent of flowers fill the air",
+              "your curated appearance immortalized for familiar eyes"
+            ],
+            "none": [
+              "flowers bloom in the spring",
+              "selected frames of your restricted self for collective memory"
             ]
           },
           "no": {
-            "no": [
-              "mirrors reflect countless faces",
+            "widely": [
+              "the puddles reflect the sky",
               "your unedited image multiplied through known observers"
+            ],
+            "none": [
+              "there are footprints in the sand",
+              "your ambiguous beauty joining neighborhood tapestry"
             ]
           }
         },
         "intimate": {
           "yes": {
-            "yes": [
-              "handprints remain on painted walls",
+            "widely": [
+              "flower petals remain on still water",
               "impressions of your true self preserved in sacred spaces"
-            ]
-          },
-          "yes": {
-            "no": [
-              "well-worn books show favorite pages",
-              "your authentic interests visible to loving readers"
+            ],
+            "none": [
+              "well-worn paths show favorite journeys",
+              "your authentic interests visible to loving companions"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "garden paths show years of footsteps",
               "your natural presence imprinted in cherished ground"
+            ],
+            "none": [
+              "pine needles collect on forest floors",
+              "your everyday joy gathered in trusted environments"
             ]
           }
         }
@@ -946,61 +1030,67 @@
       "video": {
         "strangers of your interest": {
           "yes": {
-            "yes": [
-              "security cameras capture passing moments",
-              "your performance recorded for unknown observers"
-            ]
-          },
-          "yes": {
-            "no": [
-              "documentaries preserve selected stories",
-              "narratives of your ideal self archived for curious viewers"
+            "widely": [
+              "a bird sits and rustles its feathers",
+              "your ideal performance recorded for unknown observers"
+            ],
+            "none": [
+              "the pavement glistens in the moonlight",
+              "narratives of who you wish to be archived for curious viewers"
             ]
           },
           "no": {
-            "no": [
+            "widely": [
               "street scenes unfold in store windows",
-              "your unplanned movements reflected without audience"
+              "your aspirational movements reflected without audience"
+            ],
+            "none": [
+              "fields waves in the wind",
+              "your dream moments stored without viewers"
             ]
           }
         },
         "everyone you've met": {
           "yes": {
-            "yes": [
-              "home movies capture celebrations",
-              "your social self performing for familiar archives"
-            ]
-          },
-          "yes": {
-            "no": [
-              "graduation ceremonies record achievements",
+            "widely": [
+              "waves beat against the shore",
+              "your restricted self performing for familiar archives"
+            ],
+            "none": [
+              "well trodden paths dappled with sunlight",
               "milestones of your curated journey preserved for known viewers"
             ]
           },
           "no": {
-            "no": [
-              "wedding videos document promises",
-              "your genuine moments shared with mixed witnesses"
+            "widely": [
+              "bird songs fill the morning",
+              "your unplanned moments shared with mixed witnesses"
+            ],
+            "none": [
+              "community events record shared stories",
+              "your ambiguous presence woven into collective memory"
             ]
           }
         },
         "intimate": {
           "yes": {
-            "yes": [
-              "kitchen dances captured in reflections",
+            "widely": [
+              "leaves dance reflected in still water",
               "your unguarded joy preserved in trusted sight"
-            ]
-          },
-          "yes": {
-            "no": [
-              "bedtime stories recorded for children",
-              "your loving voice archived for generational memory"
+            ],
+            "none": [
+              "birds sing evening lullabies",
+              "your loving voice archived for true companions"
             ]
           },
           "no": {
-            "no": [
-              "morning light moves across bedroom walls",
+            "widely": [
+              "morning light moves across valley walls",
               "your complete self emerging in most sacred spaces"
+            ],
+            "none": [
+              "deer follow familiar forest paths",
+              "your genuine rhythms witnessed by truest companions"
             ]
           }
         }
