@@ -2,6 +2,7 @@
   import { onMount } from 'svelte';
   import { writable } from 'svelte/store';
   import Cloud from './Cloud.svelte';
+  import outputRules from '../config/outputRules.json';
 
   const columns = {
     persistence: ['10 seconds', '1 day', '1 week', 'forever'],
@@ -63,22 +64,12 @@
   }
 
   function updateOutput(nodes) {
-    if (nodes.persistence && nodes.media && nodes.network && nodes.limit && nodes.spread) {
-      animationKey++;
-      if (nodes.persistence === '10 seconds' && nodes.media === 'short text' && 
-          nodes.network === 'strangers of your interest' && nodes.limit === 'yes' && 
-          nodes.spread === 'yes') {
-        outputText1 = 'the birds are singing';
-        outputText2 = "who you want to be and are converge";
-      } else if (nodes.persistence === 'forever' && nodes.media === 'video' && 
-                 nodes.network === 'intimate' && nodes.limit === 'no' && 
-                 nodes.spread === 'no') {
-        outputText1 = 'the leaves are blowing';
-        outputText2 = 'you are emitting becoming yourself';
-      } else {
-        outputText1 = 'analyzing combination';
-        outputText2 = '(havent thought of this combination yet)';
-      }
+    const { persistence, media, network, limit, spread } = nodes;
+
+    if (persistence && media && network && limit && spread) {
+        const output = outputRules.combinations?.[persistence]?.[media]?.[network]?.[limit]?.[spread] || ['Invalid combination', ''];
+        outputText1 = output[0]; // Natural attribute message
+        outputText2 = output[1]; // Self appearance type
     }
   }
 

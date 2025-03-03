@@ -1,0 +1,88 @@
+{
+  "combinations": {
+    "10 seconds": {
+      "short text": {
+        "strangers of your interest": {
+          "yes": {
+            "yes": [
+              "natural attribute message 1",
+              "self appearance type 1"
+            ]
+          }
+        },
+        "long text": {
+          "strangers of your interest": {
+            "yes": {
+              "yes": [
+                "natural attribute message 2",
+                "self appearance type 2"
+              ]
+            }
+          }
+        },
+        "image": {
+          "strangers of your interest": {
+            "yes": {
+              "yes": [
+                "natural attribute message 3",
+                "self appearance type 3"
+              ]
+            }
+          }
+        },
+        "video": {
+          "strangers of your interest": {
+            "yes": {
+              "yes": [
+                "natural attribute message 4",
+                "self appearance type 4"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "forever": {
+      "short text": {
+        "intimate": {
+          "no": {
+            "no": [
+              "natural attribute message 5",
+              "self appearance type 5"
+            ]
+          }
+        }
+      },
+      "long text": {
+        "intimate": {
+          "no": {
+            "no": [
+              "natural attribute message 6",
+              "self appearance type 6"
+            ]
+          }
+        }
+      },
+      "image": {
+        "intimate": {
+          "no": {
+            "no": [
+              "natural attribute message 7",
+              "self appearance type 7"
+            ]
+          }
+        }
+      },
+      "video": {
+        "intimate": {
+          "no": {
+            "no": [
+              "natural attribute message 8",
+              "self appearance type 8"
+            ]
+          }
+        }
+      }
+    }
+  }
+} 
