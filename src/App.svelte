@@ -46,6 +46,7 @@ Perhaps the solution is to delete all your social media accounts when you’re 3
 <p>It’s kind of crazy how getting early on a simple concept can lead to outsized effects on human history. It’s very difficult to destroy the platform capitalism that exists today and some might argue the ubiquity of usage is the basis for participating on the world’s stage. But what happens when the platform changes away from neutrality. When an algorithm profits off of aggression and antagonism - making it ever more difficult to escape from the doom loop.</p>
 <p>No one is posting, everyone is posting, you’re in the spectacle whether you want to or not. There’s more content being created and consumed than ever, every time I look at my seat neighbor on a train they’re scrolling through their Reels. So what do we do when social media is dead; long live social media - but what is that exactly!</p>
 <p>I’m not sure if I have the answer to replacing the forum for the world’s discourse, perhaps one day federated platforms will enter the mainstream and we can all own our own data. But for now, I have but simple dreams for social media - a flowering field where we can be our true selves - and like how we are forever changing, the form in which it takes changes too.</p>
+<p>Read on Substack <a href="https://corny.substack.com/p/the-social-media-theory-of-everything">here</a></p>
 </div>
 </main>
 
