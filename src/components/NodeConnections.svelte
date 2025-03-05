@@ -107,8 +107,8 @@
     return lines;
   }
 </script>
-
 <div class="container" bind:this={container}>
+<div class="node-container" bind:this={container}>
   <!-- SVG overlay for lines -->
   <svg class="lines-overlay">
     {#each getLines() as line}
@@ -140,25 +140,28 @@
       {/each}
     </div>
   {/each}
-
+</div>
   {#key selectedCombination}
-    <div class="output">
-      <Cloud text1={outputText1} text2={outputText2} key={animationKey} />
-    </div>
-  {/key}
+  <div class="output">
+    <Cloud text1={outputText1} text2={outputText2} key={animationKey} />
+  </div>
+{/key}
 </div>
 
 <style>
-  .container {
+  .node-container {
     display: flex;
     justify-content: left;
     padding: 2rem;
-    min-height: 500px;
+    min-height: 250px;
     position: relative;
     overflow: visible;
     gap: 2rem;
   }
-
+  .output{
+    margin-top:1em;
+  height: 300px;
+}
   .lines-overlay {
     position: absolute;
     top: 0;
@@ -195,12 +198,11 @@
     filter: blur(0px);
   }
 
-  .output {
-    position: fixed;
-    bottom: 6rem;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 2;
+  .container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
   }
 
   h3 {

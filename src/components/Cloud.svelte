@@ -38,32 +38,33 @@
   <div class="text1-container" class:shrink={isFirstDone}>
     <Animation text={text1} key={firstKey} />
   </div>
+</div>
 
-  <div class="text2-container" class:show={showSecond}>
-    <Animation text={displayText2} key={secondKey} />
-  </div>
+<div class="text2-container" class:show={showSecond}>
+  <Animation text={displayText2} key={secondKey} />
 </div>
 
 <style>
   .container {
     position: relative;
-    width: 400px;
-    height: 200px;  /* Add fixed height */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .text1-container, .text2-container {
-    position: absolute;
+    position: relative;
     width: 100%;
-    left: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
     transition: all 0.3s ease;
   }
 
-  .text1-container {
-    top: 0;
-  }
-
   .text2-container {
-    top: 60px;  /* Fixed position from top */
     opacity: 0;
     transform: translateY(20px);
   }
@@ -76,5 +77,10 @@
   .text1-container.shrink {
     transform: translateY(-20px) scale(0.8);
     opacity: 0.7;
+  }
+
+  :global(.animation-text) {
+    word-wrap: break-word;
+    white-space: pre-wrap;
   }
 </style>
