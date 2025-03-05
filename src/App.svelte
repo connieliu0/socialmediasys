@@ -7,6 +7,7 @@
     <h2>
         craft your own social network
         </h2>
+        <p style="color:white; filter: blur(0.5px);"><em>click on nodes to connect</em></p>
     <NodeConnections />
     <div class="body-text">
     <p>
