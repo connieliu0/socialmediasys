@@ -1,5 +1,8 @@
 <script>
   import Animation from './Animation.svelte';
+  import { createEventDispatcher } from 'svelte';
+  
+  const dispatch = createEventDispatcher();
   
   export let text1 = "";
   export let text2 = "";
@@ -25,6 +28,13 @@
     showSecond = true;
     isFirstDone = true;
     displayText2 = text2;
+
+    // Wait for second text to complete
+    await new Promise(resolve => 
+      setTimeout(resolve, (text2.length * 50) + 200)
+    );
+
+    dispatch('complete');
   }
 
   $: {
@@ -48,7 +58,7 @@
   .container {
     position: relative;
     width: 100%;
-    height: 100px;
+    height: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;

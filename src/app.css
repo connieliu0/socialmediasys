@@ -28,6 +28,12 @@ body {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+
+#app{
+  padding: 0.25em;
+}
+}
 button {
   border: none;
   font-size: 1em;

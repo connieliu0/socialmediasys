@@ -36,6 +36,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    padding: 2rem;
     box-sizing: border-box;
   }
 
@@ -48,9 +49,10 @@
   .blur-background {
     position: absolute;
     inset: 0;
+    border-radius: 118.519px;
+    background: rgba(255, 255, 255, 0.95);
+    filter: blur(30px);
     border-radius: 5rem;
-    background: rgba(255, 255, 255, 100);
-    filter: blur(24px);
     box-shadow: 
       0 0 10px 2px rgba(255, 255, 255, 0.05),
       inset 0 0 10px 2px rgba(255, 255, 255, 0.05);
@@ -63,13 +65,23 @@
     opacity: 1;
   }
 
-  .text {
+  .text-container .content-wrapper .text {
     white-space: pre-wrap;
     word-wrap: break-word;
-    color: #155FF3 !important;
+    color: #155FF3;
     position: relative;
     z-index: 2;
     font-size: 1.5em;
+    width: 100%;
     text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .text-container .content-wrapper .text {
+      font-size: 1em;
+    }
+    .text-container {
+      padding: 1rem;
+    }
   }
 </style>

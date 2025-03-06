@@ -3,6 +3,9 @@
   import { writable } from 'svelte/store';
   import Cloud from './Cloud.svelte';
   import outputRules from '../config/outputRules.json';
+  import { createEventDispatcher } from 'svelte';
+
+  const dispatch = createEventDispatcher();
 
   const columns = {
     persistence: ['10 seconds', '1 day', '1 week', 'forever'],
@@ -20,6 +23,7 @@
   
   // Track the previous column for drawing lines
   let previousColumn = null;
+
 
   let outputText1 = '';
   let outputText2 = '';
@@ -109,7 +113,6 @@
 </script>
 <div class="container" bind:this={container}>
 <div class="node-container" bind:this={container}>
-  <!-- SVG overlay for lines -->
   <svg class="lines-overlay">
     {#each getLines() as line}
       <line
@@ -143,25 +146,54 @@
 </div>
   {#key selectedCombination}
   <div class="output">
-    <Cloud text1={outputText1} text2={outputText2} key={animationKey} />
+    <Cloud text1={outputText1} text2={outputText2} key={animationKey} on:complete={() => dispatch('cloudComplete')} />
   </div>
 {/key}
 </div>
 
 <style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   .node-container {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: left;
-    padding: 2rem;
+    padding: 2.5rem 2rem 4rem 2rem;
     min-height: 250px;
     position: relative;
     overflow: visible;
     gap: 2rem;
   }
-  .output{
-    margin-top:1em;
-  height: 300px;
-}
+
+  @media (max-width: 768px) {
+    .container .node-container {
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      min-height: 200px;
+      padding:0rem;
+    }
+    
+    .container .node-container .node {
+      font-size: 0.8em;
+      padding: 0;
+    }
+    .container .node-container h3 {
+      font-size: 0.8em;
+    }
+  }
+
+  .output {
+    margin-top: 1em;
+    height: 200px;
+  }
+
   .lines-overlay {
     position: absolute;
     top: 0;
@@ -187,7 +219,7 @@
     cursor: pointer;
     transition: all 0.2s;
     position: relative;
-    filter: blur(1px);
+    filter: blur(0.7px);
   }
 
   .node:hover {
@@ -198,15 +230,9 @@
     filter: blur(0px);
   }
 
-  .container {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-  }
-
   h3 {
-  font-weight:600;
-  filter: blur(1px);
+    font-weight: 600;
+    filter: blur(0.7px);
+    margin: 4px 0px 4px 0px;
   }
 </style>
