@@ -65,7 +65,7 @@
         transition: all 0.3s ease;
         z-index: 9999;
         text-align: left;
-        filter: blur(0.2px);
+        filter: blur(0.1px);
         box-shadow: 0 0 10px rgba(0, 53, 255, 0.2);
     }
 
