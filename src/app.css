@@ -18,7 +18,7 @@ body {
   min-height: 100vh;
   background-image: url('/background.png');
   color: white;
-  font-family: Arial Narrow;
+  font-family: Arial Narrow, Arial, sans-serif;
 }
 
 #app {
