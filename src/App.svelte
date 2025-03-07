@@ -80,7 +80,6 @@
 <p>Thanks for reading! Read on Substack <a href="https://corny.substack.com/p/the-social-media-theory-of-everything" target="_blank" rel="noopener noreferrer">here</a> or go back to <a href="connie.surf" target="_blank" rel="noopener noreferrer">surfing</a>!</p>
     </div>
 </main>
-
 <style>
     h2{
         font-size: 1.25em;
