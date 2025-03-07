@@ -121,6 +121,7 @@
         transition: opacity 0.5s ease, transform 0.8s ease, visibility 0s linear 0.8s;
         box-sizing: border-box;
         box-shadow: 0 0 25px 24px #fff;
+        margin-bottom:24px;
     }
     .body-text.visible {
         visibility: visible;
@@ -178,7 +179,7 @@
         .body-text {
             width: 95vw;
             padding: 20px;
-            margin: 0;
+            margin: 0px 0px 48px 0px;
             border-radius: 2rem;
         }
         p {
