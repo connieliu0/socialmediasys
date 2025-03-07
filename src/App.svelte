@@ -194,6 +194,10 @@
         }
         .mobile-message {
             display: block;
+            font-size: 0.8em;
+        }
+        .subtitle{
+            font-size: 0.8em;
         }
         main {
             padding: 0;
