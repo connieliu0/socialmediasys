@@ -21,19 +21,17 @@
     <NodeConnections on:cloudComplete={handleCloudComplete} />
     <div class="body-text" class:visible={showBodyText}>
     <p>
-        When I first got on Instagram in 2013, no one I really knew was on it. I posted a heavily filtered photo, tried to scroll through content with hashtags and then gave up. Several years passed and suddenly Instagram had become an app where everyone was an influencer, everyone scrolled content made by people they didn't know, and everyone I knew was on it but few were really on it in the social way.
-    </p>
+        When I first got on Instagram in 2013, no one I really knew was on it. I posted a heavily filtered photo, tried to find content with hashtags and then gave up. Several years passed and suddenly Instagram had become an app where everyone was an influencer, everyone scrolled content made by people they didn’t know, and everyone I knew was on it but few were really on it in the social way.    </p>
     <img src="/firstpost.jpg" alt="graph" style="width: 300px;" />
-
     <p>
-        The design of social media is simple, within the tenets of web 2.0, every system has accounts, content, and the interactions between the two. However the changes on each design decision can lead to a very different experience. Take Threads and Twitter - both are extremely similar in design yet have different niches because the onboarding flow for Threads optimizes for sharing your social graph from your Instagram, which removes the anonymity many enjoy through Twitter. I wanted to see if I could figure out the system design of social media, and the path to take to design a network that would bring my most earnest self.
+        The design of social media is simple, within the tenets of web 2.0, every system has accounts, content, and interactions between the two. However the changes on each design decision can lead to a very different experience. Take Threads and Twitter - both are extremely similar in design yet have different niches because the onboarding flow for Threads optimizes for sharing your social graph from your Instagram, which removes the anonymity many enjoy through Twitter. I wanted to see if I could figure out the system design of social media, and the path to take to design a network that would bring my most earnest self.
     </p>
     <h3>
         The Theory of the System
     </h3>
     <h4>1. Network - who sees this?</h4>
     <p>
-        A part of me feels like the death of social media isn't exactly anyones fault but just the fact of growing up. When I first had social media in high school, rather than watching friendship from afar, it gave a texture to everyday friendship. To me, social media was how I memed with my friends in high school - an instagram account dedicated to the high school prompter, <ExpandableText 
+     A part of me feels like the death of social media isn’t exactly anyones fault but just the fact of growing up. When I first had social media in high school, rather than watching friendship from afar, it gave a texture to everyday friendship. To me, social media was how I memed with my high school friends - an instagram account dedicated to the school prompter, <ExpandableText 
             mainText="grave-digging on friend's old facebook posts" 
             addendumText="this is where you would post a comment on someone's really old post (for example their birthday event) and then it would bring it back on the feed for everyone and we would all make jokes in the comments."
         />, captioned snaps of our friends sleeping in class, and my favorite - a facebook event page for working on our english assignment 24 hours before the deadline.
@@ -41,7 +39,7 @@
     <img src="/examples.jpg" alt="graph" />
 
     <p>
-        But part of growing up is ultimately leaving the nest. Social media isn't flexible for your twenties, when your identity and surroundings goes through rapid changes. People transiently pass in and out of your lives and there is usually no set environment. Because Instagram has replaced changing contact info, you end up with a mass amount of followers who you don't know very well at all or people from your past <a href="https://www.theatlantic.com/health/archive/2015/10/how-friendships-change-over-time-in-adulthood/411466/" target="_blank" rel="noopener noreferrer">you likely will not ever see again</a>. It feels strange to post honestly knowing people who don't know your present context very well might interpret it differently.
+        But part of growing up is ultimately leaving the nest. Social media isn't flexible for your twenties, when your identity and surroundings goes through rapid changes. People transiently pass in and out of your lives and there is usually no set environment. Because Instagram has replaced exchanging contact info, you end up with a mass amount of followers who you don't know very well at all or people from your past <a href="https://www.theatlantic.com/health/archive/2015/10/how-friendships-change-over-time-in-adulthood/411466/" target="_blank" rel="noopener noreferrer">you likely will not ever see again</a>. It feels strange to post honestly knowing people who don't know your present context very well might interpret it differently.
     </p><p>
         Perhaps the solution is to delete all your social media accounts when you're 30 and start anew. There's a phenomenon me and my friend termed as "millennial posting" in which you post whatever you want, whenever you want, usually shower thoughts overlaid on an image which stands in stark contrast to "genz posting" in which there is either little posting or a cryptic image once every few months. When you're settled down and your social graph starts to become smaller and more consistent again, we can go back to our roots.
     </p>
@@ -52,16 +50,16 @@
         <p>
         <h4>3. Media - what is the content?</h4>
        <p>
-        The pre-existing media can broken into several types - image, long text, short text, and video. Image and video are more reflective of your outer world, whereas text represents messages from your inner world. I'm more likely to post how I'm feeling on Twitter than Instagram, because there isn't an image that can precisely capture what I'm feeling like words can. That being said, the more effort it takes to create the content - be it video or written piece, the more likely it's from the heart.
+        The pre-existing media that’s exchanged can broken into several types - image, long text, short text, and video. Image and video are more reflective of your outer world, whereas text represents messages from your inner world. I'm more likely to post how I'm feeling on Twitter than Instagram, because there isn't an image that can precisely capture what I'm feeling like words can. That being said, the more effort it takes to create the content - be it video or written piece, the more likely it's from the heart.
         <h4>4. Limit - what are the rules?
         </h4>
         <p>
-            When BeReal came out, it introduced a constraint - you can only post once per day, a feature that was counterintuitive to growth but encouraged sincerity. Many people wouldn't post on time, they'd save their post for something more interesting. On Retro, you can only post photos from your week, encouraging a more immediate reflection to sharing. Beyond time or frequency, even limiting when you post to real life action, such as Strava (or even <a href="https://www.theatlantic.com/technology/archive/2024/08/venmo-social-media/679665/" target="_blank" rel="noopener noreferrer">Venmo</a>), begets a more authentic post than most platforms. I find that limits encourage quality, real-time sharing - but to do so and also feel a sense of connection only work in close, intimate networks.
+            When BeReal came out, it introduced a constraint - you can only post once per day, a feature that was counterintuitive to growth but encouraged sincerity. Many people wouldn't post on time, they'd save their post for something more interesting. On Retro, you can only post photos from your week, encouraging a more immediate reflection to sharing. Beyond time or frequency, even limiting when you post to whether you’ve completed a real life action, such as Strava (or even <a href="https://www.theatlantic.com/technology/archive/2024/08/venmo-social-media/679665/" target="_blank" rel="noopener noreferrer">Venmo</a>), begets a more authentic post than most platforms. I find that 'limits' encourage quality, real-time sharing - but to do so and to also feel a sense of connection only works in close, intimate networks.
 </p>
             <h4>5. Spread - will it reach who I want?
             </h4>
    <p>
-    Cultivating influencer culture relies on one core principle, how easy is it for us to become known? What Tiktok did <a href="https://x.com/manasjsaloi/status/1880975536488677674" target="_blank" rel="noopener noreferrer">differently</a> was it became truly easy for anyone to reach who they wanted to. I'd disagree that influencing is a performance, since all performing comes from a root of self. We share to reach others because we want parts of ourselves that are hidden to be recognized. I create to be seen by those who understand that part of myself, in that way, perhaps I'm being more authentic than in any other form.
+    Cultivating influencer culture relies on one core principle, how easy is it for us to become known? What Tiktok did <a href="https://x.com/manasjsaloi/status/1880975536488677674" target="_blank" rel="noopener noreferrer">differently</a> was it became truly easy for anyone to reach their intended audience and so people would post whatever they wanted because it’d be seen. I'd disagree that influencing is a performance, since all performing comes from a root of self. We share to reach others because we want parts of ourselves that are hidden to be recognized. I create to be seen by those who understand that part of myself, in that way, perhaps I'm being more authentic than in any other form.
 </p>
     <h4>Other factors</h4>
     <p>
@@ -85,6 +83,7 @@
 
 <style>
     h2{
+        font-size: 1.25em;
         filter: blur(0.7px);
     }
     h3,h4{
