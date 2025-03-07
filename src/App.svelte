@@ -187,7 +187,7 @@
             box-sizing: border-box;
         }
         h3 {
-            font-size: 0.8em;
+            font-size: 1,2em;
         }
         h2 {
             font-size: 1em;
