@@ -233,6 +233,6 @@
   h3 {
     font-weight: 600;
     filter: blur(0.7px);
-    margin: 4px 0px 4px 0px;
+    margin: 0px;
   }
 </style>
