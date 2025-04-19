@@ -107,11 +107,11 @@
         margin-bottom:1em;
     }
     .body-text {
-        width: 800px;
+        width: 650px;
         margin: 0 auto;
         background-color: white;
         text-align: center;
-        padding: 30px;
+        padding: 30px 60px;
         filter: blur(0.6px);
         border-radius: 5rem;
         visibility: hidden;
